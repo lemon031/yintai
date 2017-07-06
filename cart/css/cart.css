@@ -1,0 +1,277 @@
+
+.header_t{
+	height: 36px;
+	background: #eeeeee;
+}
+.header_tc{
+	width: 1190px;
+	margin: 0 auto ;
+	font-size: 12px;
+	line-height: 35px;
+}
+.header_tc .iconfont{
+	font-size: 20px;
+	padding-right:6px ;
+}
+.header_tc .icon-jiankuohaocudaxia{
+	font-size: 5px;
+	padding-left: 6px;
+}
+.header_tcl{
+	/*height: 35px;*/
+	position: relative;
+	width: 450px;
+	display: inline-block;
+}
+.header_tcl li{
+	float: left;
+}
+.header_tcl li a{
+	padding: 0 10px;
+	border-right: 1px solid #cccccc;
+}
+.header_tcl li:nth-child(2):hover{
+	background: #FFFFFF;
+}
+.wechat{
+	position: absolute;
+	left: 95px;
+	top: 35px;
+	padding: 10px;
+	z-index: 1;
+	background: #FFFFFF;
+	display: none;
+}
+.header_tcl li:nth-child(3):hover{
+	background: #FFFFFF;
+}
+.appphone{
+	position: absolute;
+	left: 190px;
+	top: 35px;
+	z-index: 1;
+	background: #FFFFFF;
+	display: none;
+}
+.header_tcr{
+	float: right;
+	position: relative;
+}
+.header_tcr li{
+	float: left;	
+}
+.header_tcr li a{
+	padding: 0 10px;
+	border-right: 1px solid #cccccc;
+}
+.header_tcr li:nth-child(3):hover{
+	background: #FFFFFF;
+}
+.myself{
+	width: 93px;
+	position: absolute;
+	right:125px;	
+	top: 35px;
+	z-index: 1;
+	display: none;
+}
+.myself li{
+	width: 93px;
+	height: 35px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 35px;
+	border-bottom:1px solid #CCCCCC ;
+}
+.header_mc{
+	width: 1440px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../img/1.jpg) repeat-x;
+}
+.header_b{
+	height: 120px;	
+	width: 1190px;
+	margin: 0 auto;
+	background: url(../img/2.jpg) no-repeat 0 0;
+}
+/*以上是header部分*/
+#main{
+	background: #DDDDDD;
+}
+.main_n{
+	width: 980px;
+	margin: 0 auto;
+}
+.main_b{
+	height: 110px;
+	padding: 20px 20px 0 20px ;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-top:20px ;
+}
+.main_btl{
+	width: 110px;
+	height: 75px;
+	background: url(../img/shopping-head.jpg)no-repeat ;
+	float: left;
+}
+.main_btr{
+	float: right;
+	width: 530px;
+	height: 60px;
+	background: url(../img/shopping-head.jpg)no-repeat -165px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.main_btr li{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.main_btr li:nth-child(1){
+	color: #E3004F;
+}
+.main_bm{
+	background: #FFFFFF;
+}
+.main_bmt{
+	width: 940px;
+	margin: 0 auto;
+	height: 30px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	line-height: 30px;
+	background: #666666;
+}
+.main_bmt li{
+	
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+.main_bmt li:nth-child(2){
+	width:300px;
+}
+.main_bm p:nth-child(2){
+	width: 900px;
+	margin: 0 auto;
+	line-height: 30px;
+	background: #eeeeee;
+	padding: 0 20px;
+} 
+.main_bmb{
+	background: #FFFFFF;
+	min-height: 90px;
+	
+}
+.oEmpty{
+	width: 940px;
+	margin: 0 auto;
+	line-height: 90px;
+	text-align: center;
+	/*display: none;*/
+}
+.have{
+	width: 940px;
+	margin: 0 auto;
+	min-height: 90px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.have li{
+	width: 100px;
+	text-align: center;
+}
+.have li:nth-child(2){
+	width:300px;
+}
+.main_bb{
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.main_bb p:nth-child(1){
+	width: 940px;
+	margin: 0 auto;
+}
+.main_bb  ul{
+	/*float: right;*/
+	width: 940px;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+	padding-left: 400px;
+	line-height: 30px;
+}
+.main_bb  ul li{
+	float: left;
+	margin-right: 20px;
+}
+.main_bb  ul li span{
+	color: #E3004F;
+}
+.main_buy{
+	width: 940px;
+	height: 70px;
+	margin: 0 auto;
+}
+.main_bb .main_buy p{
+	margin-left: 500px;
+	line-height: 50px;
+	font-size: 16px;
+}
+.main_bb .main_buy p span{
+	font-size: 12px;
+	
+}
+.total{
+	color: #E3004F;
+	font-size: bold;
+}
+.btnAll{
+	width: 120px;
+	height: 30px;
+	background: #E3004F;
+	border-radius:5px ;
+}
+/*以上是main部分*/
+#footer{
+	width: 1190px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0;
+}
+#footer ul{
+	
+}
+#footer ul li{
+	margin: 10px 0;
+	float: left;
+	padding: 0 10px;
+	border-left: 1px solid #CCCCCC;
+	color: #757575;
+}
+#footer ul li:first-child{
+	border-left: 0;
+}
+#footer ul li:hover{
+	color: red;
+}
+.footer_b{
+	display: flex;
+}
+.footer_b img{
+	padding: 20px;
+}
+#footer p{
+	line-height: 20px;
+	color: #b2b2b2;
+}
